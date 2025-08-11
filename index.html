@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Tienda de Ropa</title>
+<style>
+  body { font-family: Arial, sans-serif; background:#f0f0f0; margin:0; padding:0; color:#333; }
+  header { background:#ff6f61; color:#fff; text-align:center; padding:15px 0; }
+  h1 { margin:0; }
+  .productos { display:flex; gap:15px; flex-wrap: wrap; justify-content:center; padding:20px; }
+  .producto { background:#fff; border-radius:8px; box-shadow:0 2px 5px rgba(0,0,0,0.1); width:200px; }
+  .producto img { width:100%; border-top-left-radius:8px; border-top-right-radius:8px; }
+  .info { padding:10px; }
+  .precio { color:#ff6f61; font-weight:bold; }
+  footer { text-align:center; padding:15px 0; background:#ddd; margin-top:20px; font-size:0.9rem; }
+</style>
+</head>
+<body>
+<header>
+  <h1>Tienda de Ropa</h1>
+</header>
+<main class="productos">
+  <div class="producto">
+    <img src="https://images.unsplash.com/photo-1521334884684-d80222895322?auto=format&fit=crop&w=400&q=80" alt="Camiseta blanca" />
+    <div class="info">
+      <p>Camiseta Blanca</p>
+      <p class="precio">$15.99</p>
+    </div>
+  </div>
